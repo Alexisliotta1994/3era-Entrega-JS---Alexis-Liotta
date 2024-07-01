@@ -1,0 +1,60 @@
+#body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.alldiv{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(198, 197, 250);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    
+  
+}
+.divCard{
+    width: 400px;
+    height: 600px;
+    display: inline-block;
+    background-color: rgb(1, 13, 66);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: beige;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.1ms
+  
+}
+  
+.fotoperfil{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    border-radius: 20px;
+}
+.title-resultado{
+    color: aqua;
+}
+.divCardModificar{
+margin-left: 20px;
+width: 300px;
+height: 500px;
+background-color: rgb(5, 40, 194);
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: beige;
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+}
+.ocultar{
+    display: none;
+    transition: 0.1ms
+}
